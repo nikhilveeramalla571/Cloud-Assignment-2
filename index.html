@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2299.4">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 10.7px 0.0px; font: 14.7px Times; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt;</span></p>
+<p class="p1"><span class="s1">&lt;html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"&gt;</span></p>
+<p class="p1"><span class="s1">&lt;head&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;meta charset="UTF-8"&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;title&gt;Login&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1">&lt;style&gt;</span></p>
+<p class="p1"><span class="s1">    form {</span></p>
+<p class="p1"><span class="s1">        width: 400px;</span></p>
+<p class="p1"><span class="s1">        margin: 0 auto;</span></p>
+<p class="p1"><span class="s1">        text-align: center;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    label {</span></p>
+<p class="p1"><span class="s1">        font-weight: bold;</span></p>
+<p class="p1"><span class="s1">        margin-right: 10px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    input[type="text"], input[type="password"] {</span></p>
+<p class="p1"><span class="s1">        padding: 10px;</span></p>
+<p class="p1"><span class="s1">        font-size: 16px;</span></p>
+<p class="p1"><span class="s1">        margin-bottom: 20px;</span></p>
+<p class="p1"><span class="s1">        width: 300px;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">    button {</span></p>
+<p class="p1"><span class="s1">        padding: 10px 20px;</span></p>
+<p class="p1"><span class="s1">        background-color: blue;</span></p>
+<p class="p1"><span class="s1">        color: white;</span></p>
+<p class="p1"><span class="s1">        border: none;</span></p>
+<p class="p1"><span class="s1">        border-radius: 5px;</span></p>
+<p class="p1"><span class="s1">        cursor: pointer;</span></p>
+<p class="p1"><span class="s1">    }</span></p>
+<p class="p1"><span class="s1">&lt;/style&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/head&gt;</span></p>
+<p class="p1"><span class="s1">&lt;body&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;div align="center"&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div style="color:red;"&gt;&lt;h1&gt;Login Page&lt;/h1&gt;&lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;div&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;form action="{{url_for('login')}}" method="POST"&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;div&gt;{{ message }}&lt;/div&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label&gt;User Name :&lt;input id="username" name="username" type="text" placeholder="Enter User Name" autocomplete="off"/&gt; &lt;/label&gt;&lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;label&gt;Password : &lt;input id="password" name="password" type="password" placeholder="Enter Password" autocomplete="off"/&gt;&lt;/label&gt; &lt;br&gt;&lt;br&gt;</span></p>
+<p class="p1"><span class="s1">                &lt;button id="submit" name="submit"&gt;Sign in&lt;/button&gt;</span></p>
+<p class="p1"><span class="s1">            &lt;/form&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">        &lt;p&gt;Don't have an account? Please click &lt;a href="{{url_for('registration')}}"&gt;here&lt;/a&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">    &lt;/div&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/body&gt;</span></p>
+<p class="p1"><span class="s1">&lt;/html&gt;</span></p>
+</body>
+</html>
